@@ -1,0 +1,53 @@
+#bg1 {
+  background: rgba(99, 121, 244, 1);
+}
+#text-logo {
+  position: absolute;
+  font: Nunito Sans;
+  color: black;
+  margin-left: 4%;
+  color: white;
+}
+#img-phone {
+  z-index: 999;
+}
+#img-line {
+  margin-left: -25%;
+}
+#text-left {
+  font: Nunito Sans;
+  color: white;
+  margin-top: 30px;
+}
+#text-description3 {
+  font-family: Nunito Sans;
+  color: grey;
+}
+#btn-login {
+  background: rgba(218, 218, 218, 1);
+  border: 0;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+  border-radius: 12px;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: grey;
+  margin-top: 100px;
+}
+#img-mail {
+  margin-top: 10px;
+  height: 20px;
+}
+#InputEmail1 {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+#img-eye {
+  margin-top: 7px;
+}

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="transfer-history.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Transfer Money</title>
+</head>
+
+<body id="background">
+
+  <!-- Navbar -->
+  <div style="border-radius: 25px; max-width: 100%; background-color: white; height: 100px; ">
+    <nav class="navbar d-flex">
+      <a id="text-nav" class="navbar-brand" href="dashboard.html">
+        Zwallet
+      </a>
+      <div class="nav-profile form-inline my-3 my-lg-0">
+        <img class="mr-sm-2" id="img-nav" src="assets\image\home\pict.png">
+        <ul class="navbar-nav mr-sm-0">
+          <li id="text-nav-name">Robert Chandler</li>
+          <li id="text-nav-number">+62 8139 3877 7946</li>
+        </ul>
+        <img id="img-bell" src="assets\image\home\bell.png">
+      </div>
+    </nav>
+  </div>
+  <!-- End Navbar -->
+
+  <!-- Of Menu -->
+  <div class="container">
+    <div class="row">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="container col-lg-3"
+            style="background-color: white; border-radius: 25px; margin-top: 20px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); ">
+            <div class="d-flex align-items-start flex-column" style="height: 95%;">
+              <div class="mb-auto p-2">
+                <div class="d-flex flex-column">
+                  <a href="dashboard.html" class="p-2" style="margin-bottom: 40px; margin-top: 10px">
+                    <img src="assets\image\home\db.png">
+                    <span class="text-menu">Dashboard</span>
+                  </a>
+                  <a href="transfer.html" class="p-2" style="margin-bottom: 40px;">
+                    <img style="margin-left: -31px; position: absolute;" src="assets\image\effect.png">
+                    <img src="assets\image\home\transfer1.png">
+                    <span style="color: blue;" class="text-menu">Transfer</span>
+                  </a>
+
+                  <a href="#" class="p-2" style="margin-bottom: 40px;">
+                    <img src="assets\image\home\topup.png">
+                    <span class="text-menu">Top Up</span>
+                  </a>
+
+                  <a href="#" class="p-2">
+                    <img src="assets\image\home\profile.png">
+                    <span class="text-menu">Profil</span>
+                  </a>
+                </div>
+
+              </div>
+
+              <a href="index.html" class="p-2" style="margin-left: 12px; margin-top: 30px; margin-bottom: 20px;">
+                <img src="assets\image\home\logout.png">
+                <span class="text-menu">Logout</span>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- End Of Menu -->
+
+          <div class="col">
+            <div class="container transfer">
+              <div class="d-flex flex-column" style="margin-top: 20px;">
+                <div class="p-1" style="font-family: Nunito Sans;font-size: 18px; margin-top: 30px;">Transfer Money
+                </div>
+                <div class="p-1" style="margin-left: -35px;">
+
+                  <div style="margin-bottom: 30px; margin-top: 20px;" class="p-1 tr-box">
+                    <div style="margin-left: 10px; padding-top: 2px;" class="nav-profile form-inline my-3 my-lg-0">
+                      <img class="mr-sm-1" src="assets\image\transfer\profile\1.png">
+                      <ul class="navbar-nav mr-sm-0 text-history">
+                        <li>Samuel Sushi</li>
+                        <li style="opacity: 40%; ">+62 813-8492-9994</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="p-1" style="font-family: Nunito Sans; font-size: 16px; opacity: 40%;">
+                  Type the amount you want to transfer and then<br>
+                  press continue to the next steps.
+                </div>
+                <div class="p-1">
+
+                  <div class="d-flex justify-content-center">
+                    <div class="p-1">
+                      <input type="text" placeholder="0.00"
+                        style="border: none; color: #6379F4; font-size: 42px;  outline: none; text-align: center; max-width: 300px;">
+                      <div class="p-1 text-tr-hs" style=" margin-top: 30px; margin-bottom: 30px">Rp120.000 Available
+                      </div>
+
+                      <div>
+                        <img src="assets\image\transfer\pen.png">
+                        <input class="text text-tr-hs" placeholder="Add some notes"
+                          style="border: 0; font-size: 15px;  outline: 0;">
+                        <section>
+                          <hr size="30px">
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container" style="margin-bottom: 10px; margin-top: 20px; margin-right: -20px;">
+                    <div class="d-flex justify-content-end">
+                      <div class="row">
+                        <a href="transfer-confirmation.html" class="col-sm">
+                          <button class="btn btn-primary" id="btn-continue">Continue</button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="card d-sm-none d-xl-block" id="footer">
+    <div class="card-body">
+      <div class="text">
+        <div style="padding-left: 10%;" id="text-footer" class="row">
+          <div class="col-lg-5 col-sm-6">
+            2020 Zwallet. All right reserved.
+          </div>
+          <div class="col-lg-4 col-sm-3">
+            +62 5637 8882 9901
+          </div>
+          <div class="col-lg-3 col-sm-3">
+            contact@zwallet.com
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--End Of Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
